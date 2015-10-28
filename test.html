@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+.banner { position: relative; overflow: auto; 
+  background: #0f0; 
+  min-height: 100px; }
+.banner li { list-style: none; }
+.banner ul li { float: left; }
+	</style>
+	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="http://unslider.com/unslider.js"></script>
+<script>
+	$(function() {
+		$('.banner').unslider();
+	});
+</script>
+</head>
+<body>
+	<div class="banner">
+		<ul>
+			<li>This is a slide.</li>
+			<li>This is another slide.</li>
+			<li>This is a final slide.</li>
+		</ul>
+	</div>
+</body>
+
+</html>
